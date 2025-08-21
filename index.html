@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヒット＆ブロー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>ヒット＆ブロー</h1>
+        <p>重複しない3桁の数字を当ててください。</p>
+        
+        <div id="input-area">
+            <input type="text" id="user-guess" maxlength="3" placeholder="3桁の数字">
+            <button id="check-button">チェック</button>
+        </div>
+
+        <div id="result-area">
+            <h2>結果</h2>
+            <ul id="logs"></ul>
+        </div>
+        
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
